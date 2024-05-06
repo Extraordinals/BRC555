@@ -1,0 +1,27 @@
+/* Reset the margin and padding for all elements to ensure consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setup the .content div to cover the entire viewport */
+.content {
+    position: absolute; /* Make it absolute to position relative to the nearest positioned ancestor */
+    background-color: #2c3e50; /* Dark slate blue background color */
+    width: 100%; /* Full width */
+    padding-top: 100%; /* Equal width and height to maintain square aspect ratio */
+    overflow: hidden; /* Hide anything outside this container */
+    backface-visibility: hidden; /* Hide the back face of the transformed element */
+    -moz-backface-visibility: hidden; /* Firefox-specific prefix for backface-visibility */
+    -webkit-backface-visibility: hidden; /* Safari/Chrome-specific prefix for backface-visibility */
+}
+
+/* Setup the .background-img to cover the entire .content div */
+.background-img {
+    position: absolute; /* Absolute position relative to its parent .content */
+    width: 100%; /* Full width of its parent */
+    height: 100%; /* Full height of its parent */
+    top: 0;
+    left: 0;
+    object-fit: cover; /* Ensure the image covers the available space without distorting its aspect ratio */
+}

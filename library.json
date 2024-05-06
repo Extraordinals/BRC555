@@ -1,0 +1,24 @@
+
+
+{
+    "version": "0.1.0",
+    "modules": [
+        {
+            "id": "/content/YOUR-STYLES-ID",
+            "type": "style",
+            "name": "styles"
+        },
+        {
+            "id": "/content/YOUR-LOADER-ID",
+            "type": "script",
+            "name": "loader"
+        }
+    ],
+    "initialize": {
+        "id": "/content/YOUR-INITIALIZE-ID",
+        "type": "script",
+        "func": "initialize"
+    }
+}
+
+
