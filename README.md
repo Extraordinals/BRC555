@@ -3,7 +3,7 @@ A modifiable ordinal standard. Desired ordinals can be updated based on several 
 
 ## Initial Setup
 
-This document provides a detailed protocol for setting up the necessary files and configurations to inscribe an ordinal using the BRC-669 protocol. Follow these steps sequentially to ensure proper setup.
+This document provides a detailed protocol for setting up the necessary files and configurations to inscribe an ordinal using the BRC-555 protocol. Follow these steps sequentially to ensure proper setup.
 
 
 **Inscribe the Main Parent:**
