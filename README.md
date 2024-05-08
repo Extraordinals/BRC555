@@ -1,4 +1,4 @@
-# BRC-669
+# BRC-555
 A modifiable ordinal standard. Desired ordinals can be updated based on several different parent-child relationships. This standard offers a modular structure, enabling the division of ordinals into as many parts as desired, thus facilitating updates at a lower cost.
 
 ## Initial Setup
