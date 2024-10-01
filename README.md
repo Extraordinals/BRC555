@@ -6,14 +6,14 @@ A modifiable ordinal standard. Desired ordinals can be updated based on several 
 This document provides a detailed protocol for setting up the necessary files and configurations to inscribe an ordinal using the BRC-555 protocol. Follow these steps sequentially to ensure proper setup.
 
 
-**Inscribe the Main Parent:**
+**Inscribe the Root Parent:**
 
-Start by inscribing the main parent. Place the ID of this main parent into the corresponding section within the inscription.js file.
+Start by inscribing the root parent. Place the ID of this root parent into the corresponding section within the inscription.js file.
 
 
-**Inscribe a Child to the Main Parent:**
+**Inscribe a Child to the Root Parent:**
 
-Create a child under the main parent and refer to it as the "layered parent".
+Create a child under the root parent and refer to it as the "composite parent".
 
 
 **Inscribe the inscription.js File:**
@@ -33,7 +33,7 @@ Inscribe these files and place their IDs into the appropriate sections within th
 
 **Inscribe the library.json File:**
 
-Inscribe the library.json file as a child of the layered parent.
+Inscribe the library.json file as a child of the composite parent.
 
 
 **Finalizing Setup**
